@@ -1,7 +1,5 @@
 import re
 
-from psutil import users
-
 
 class Reader:
     def __init__(self,file):
