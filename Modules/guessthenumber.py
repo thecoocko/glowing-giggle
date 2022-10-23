@@ -12,7 +12,7 @@ class Guesser:
 
     def guesser(self):
         if self.computer_number == self.user_number:
-            return "USER WINNER!"
+            return "USER WIN!"
         else:
             return self.show() + "\nBetter luck next time, buddy..."
         
